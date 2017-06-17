@@ -27,30 +27,50 @@
 *Illustrates the **full tree history** with a commit graph. This may be easier to read than a `$ git log`*
 
 ### Stage files to commit
-`$ git add <filename>` - Add a file and its changes to the staging area.
+`$ git add <filename>`
 
-`$ git add -A` - Add all files and changes to the staging area.
+*Add a file and its changes to the staging area.*
+
+`$ git add -A`
+
+*Add all files and changes to the staging area.*
 
 ### Commit changes in staged files
-`$ git commit -m "<commit message>"` - commit staged changes (the `-m` flag will let you add your commit message inline).
+`$ git commit -m "<commit message>"`
+
+*commit staged changes (the `-m` flag will let you add your commit message inline).*
 
 ### Branching
-`$ git branch <branch name>` - create a new branch
+`$ git branch <branch name>`
 
-`$ git branch` - list all branches
+*create a new branch*
 
-`$ git checkout <branch name>` - switch to a different branch.
+`$ git branch`
+
+*list all branches*
+
+`$ git checkout <branch name>`
+
+*switch to a different branch.*
 
 ### Merging
 
-`$ git merge <branch name>` - merge target branch into  current branch.
+`$ git merge <branch name>`
+
+*merge target branch into  current branch.*
 
 ---
 
-# Initializing a Git Repository
-1. Make a directory `$ mkdir <dir name>`
-2. Move into the repository `$ cd <dir name>`
-3. Initalize a git repository `$ git init`
+# How to initialize a git repository
+1. Make a directory
+
+`$ mkdir <dir name>`
+2. Move into the repository
+
+`$ cd <dir name>`
+3. Initalize a git repository
+
+`$ git init`
 
 ---
 
