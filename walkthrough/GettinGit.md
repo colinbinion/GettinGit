@@ -24,7 +24,7 @@
 
 `$ git log --oneline --decorate --color --graph --all`
 
-*`View the full tree history with an awesome commit graph, use  instead.
+*Illustrates the **full tree history** with a commit graph. This may be easier to read than a `$ git log`*
 
 ### Stage files to commit
 `$ git add <filename>` - Add a file and its changes to the staging area.
