@@ -9,12 +9,18 @@
 *This CLI command creates a new local (on your machine) repository.*
 
 ### Repo Status
-`$ git status` - Check the status of your current repository and see which files have changed.
+`$ git status`
 
-`$ git diff` - See the differences between your working tree and the latest commit.
+*This checks the status of the current repository & shows what files have changed.*
+
+`$ git diff`
+
+*Shows differences/contrasts between the working tree and the latest commit.*
 
 ### Repo History
-`$ git log` - Show all commits for the current branch, starting with the newest.
+`$ git log`
+
+*Shows all the commits on the current branch. Beginning with the newest commit.*
 
 `$ git log --oneline --decorate --color --graph --all` - View the full tree history with an awesome commit graph, use  instead.
 
