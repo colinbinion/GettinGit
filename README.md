@@ -1,8 +1,11 @@
-# GettinGit
+# GettinGit Tutorial
 
 ---
 
-# Essential Git
+# Directions
+
+![Example](assets/gitLogoDsV1.png)
+
 ### Create a new git repository
 `$ git init` - Create a new, local repository
 
