@@ -20,9 +20,11 @@
 ### Repo History
 `$ git log`
 
-*Shows all the commits on the current branch. Beginning with the newest commit.*
+*Shows all the commits on the current branch. Beginning with the most recent commit.*
 
-`$ git log --oneline --decorate --color --graph --all` - View the full tree history with an awesome commit graph, use  instead.
+`$ git log --oneline --decorate --color --graph --all`
+
+*`View the full tree history with an awesome commit graph, use  instead.
 
 ### Stage files to commit
 `$ git add <filename>` - Add a file and its changes to the staging area.
