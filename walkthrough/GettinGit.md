@@ -76,12 +76,23 @@
 
 ---
 
-# Basic Git Workflow
-1. Do some work
-2. `$ git status` to review your changes.
-3. `$ git add <filename>` to add files to the staging area. (Use `$ git add -A` to add all files and changes.)
-4. `$ git status` to see what you're about to commit
-5. `$ git commit -m "<message>"` to commit the changes in the staging area with a message.
+# Some basic git workflow
+1. Do a little work
+2. `$ git status`
+
+to review your changes.
+
+3. `$ git add <filename>`
+
+to add files to the staging area. (Use `$ git add -A` to add all files and changes.)
+
+4. `$ git status`
+
+to see what you're about to commit
+
+5. `$ git commit -m "<message>"`
+
+to commit the changes in the staging area with a message.
 
 ---
 
