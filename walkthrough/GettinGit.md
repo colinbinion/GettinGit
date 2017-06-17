@@ -78,6 +78,7 @@
 
 # Some basic git workflow
 1. Do a little work
+
 2. `$ git status`
 
 to review your changes.
