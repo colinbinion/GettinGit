@@ -1,10 +1,11 @@
-# GettinGit
+# GettinGit Tutorial
 
 ---
 
-# Essential Git
-### Create a new git repository
-`$ git init` - Create a new, local repository
+# Some Essential Git Concepts
+### To create a new git repository
+
+`$ git init` This CLI command creates a new local (on your machine) repository.
 
 ### Repo Status
 `$ git status` - Check the status of your current repository and see which files have changed.
