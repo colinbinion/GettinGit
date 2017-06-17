@@ -5,6 +5,7 @@
 # Some Essential Git Concepts
 ### To create a new git repository
 `$ git init`
+
 *This CLI command creates a new local (on your machine) repository.*
 
 ### Repo Status
