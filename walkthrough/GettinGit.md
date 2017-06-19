@@ -105,7 +105,7 @@
 
 ---
 
-# Creating/Manageing you local repo
+# Creating/Managing you local repo
 ### This exercise will reside on your device and not add to a gitHub repo
 1. Let's create a new directory in the terminal with the name of your **favorite movie**. (Make sure you `cd` into that directory)
 2. Next initialize a local git repository.  (See notes above)
