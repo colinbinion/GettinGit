@@ -91,15 +91,17 @@
 
 *3. **Next** add files to the staging area. (Use `$ git add -A` to add all files and changes.)*
 
-`$ git add <filename>`
+`$ git add <your filename>`
 
-4. `$ git status`
+*4. **Next** review what you're about to commit*
 
-to see what you're about to commit
+`$ git status`
 
-5. `$ git commit -m "<message>"`
+*5. **Finally** commit the changes in the staging area with a message.*
 
-to commit the changes in the staging area with a message.
+`$ git commit -m "<message>"`
+
+~~**Note:** You would normally `$ git push` as the next step, however at this point in the walkthrough we haven't added the gitHub repo bindings~~
 
 ---
 
