@@ -27,7 +27,7 @@
 *Illustrates the **full tree history** with a commit graph. This may be easier to read than a `$ git log`*
 
 ### Stage files to commit
-`$ git add **filename**`
+`$ git add <yourFilename>`
 
 *Add a file and its changes to the staging area.*
 
@@ -36,12 +36,12 @@
 *Add all files and changes to the staging area.*
 
 ### Commit changes in staged files
-`$ git commit -m "<commit message>"`
+`$ git commit -m "<your commit message>"`
 
 *commit staged changes (the `-m` flag will let you add your commit message inline).*
 
 ### Branching off your master branch
-`$ git branch <branch name>`
+`$ git branch <your new branch name>`
 
 *this creates a new branch*
 
@@ -49,28 +49,28 @@
 
 *list all branches*
 
-`$ git checkout <branch name>`
+`$ git checkout <your branch name>`
 
 *this switches to a different branch*
 
 ### Merging your branches
 
-`$ git merge <branch name>`
+`$ git merge <your branch name>`
 
-*merge target branch into  current branch.*
+*merge target branch into  current branch.  You will need to checkout your master branch (or desired branch) before running this command.  This command merges the identified branch into the branch you are currently in.*
 
 ---
 
 # How to initialize a git repository
-Step One *Make a directory*
+**Step One** *Make a directory*
 
 `$ mkdir <dir name>`
 
-Step Two *Move into the repository*
+**Step Two** *Move into the repository*
 
 `$ cd <dir name>`
 
-Step Three *Initalize a git repository*
+**Step Three** *Initalize a git repository*
 
 `$ git init`
 
