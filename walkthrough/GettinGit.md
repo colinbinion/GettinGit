@@ -101,25 +101,27 @@
 
 `$ git commit -m "<message>"`
 
-~~**Note:** You would normally `$ git push` as the next step, however at this point in the walkthrough we haven't added the gitHub repo bindings~~
+**Note:** You would normally `$ git push` as the next step, however at this point in the walkthrough we haven't added the gitHub repo bindings
 
 ---
 
-# Create and manage a local repo
-1. Create a new directory with the name of your favorite animal. `cd` into that directory.
-1. Initialize a git repository.
-1. Create a new html file called `index.html`
-1. Check the status of your repo to confirm that your new file exists and has not yet been added to your repo.
-1. Add the new file to your staging area.
-1. Commit the new file to your repo with the message "created homepage"
-1. Open the file in your text editor and set up your html document structure (head, body, title).
-1. Check the status of your repo to see your changes.
-1. Add your changes to the staging area.
-1. Check the status to confirm that your changes have been added to the staging area.
-1. Commit the changes to your repository with the message "set up html document structure".
-1. Repeat steps 7-11, this time adding a header to your page. Commit these changes with the message "added page header".
-1. Repeat steps 7-11 two more times, first adding an image of the animal, the second time adding three facts about that animal in an unordered list.
-1. Run the fancy git log command (`git log --oneline --graph --decorate --all`) to see your commit history. You should see 5 commits. Congrats! You've completed the first exercise.
+# Creating/Manageing you local repo
+### This exercise will reside on your device and not add to a gitHub repo
+1. Let's create a new directory in the terminal with the name of your **favorite movie**. (Make sure you `cd` into that directory)
+2. Next initialize a local git repository.  (See notes above)
+3. Next create a new html file and call it `index.html`
+4. Let's check the status of your local repo. Confirm that your new file exists and has not yet been added to your local repo.  (See notes above)
+5. Let's add index.html to your staging area.  (See notes above)
+6. Let's commit index.html to your local repo with the message "created initial homepage". (See notes above)
+7. Next open the file in Sublime and set up your html doc structure. (head, body, title, etc.)
+8. Let's check the status of your local repo to view your changes.  (See notes above)
+9. Let's add your changes to the staging area.  (See notes above)
+10. Next check the status and confirm that your changes have been added to the staging area. (See notes above)
+11. Now commit the changes to your local repo with the message "initial html doc structure".  (See notes above)
+12. Go ahead and repeat steps 7-11, but add a header to your page this time. Commit these changes with the message "adding index.html header".
+13. Now repeat steps 7-11, adding an image of the movie poster. Think about what your commit message should be.
+14. Repeat steps 7-11 one more time, add three trivia facts about the movie in an ordered list.
+15. Finally run the git log command (`git log --oneline --graph --decorate --all`) to see your local commit history. You should see 5 commits. (See notes above)
 
 ---
 
