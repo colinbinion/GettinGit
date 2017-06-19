@@ -62,15 +62,21 @@
 ---
 
 # How to initialize a git repository
-**Step One** *Make a directory*
+**Step One**
+
+*Make a directory*
 
 `$ mkdir <dir name>`
 
-**Step Two** *Move into the repository*
+**Step Two**
+
+*Move into the repository*
 
 `$ cd <dir name>`
 
-**Step Three** *Initalize a git repository*
+**Step Three**
+
+*Initalize a git repository*
 
 `$ git init`
 
