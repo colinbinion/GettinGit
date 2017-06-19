@@ -127,43 +127,32 @@
 
 # Working with a remote repository (Github)
 
-`$ git clone <repo path or URL>`
+`$ git clone <repo path or URL>` - clone a repository into a new directory.
 
-*This clones a repository into a new directory*
+`$ git remote` - List all remotes for the current repo.
 
-`$ git remote`
+`$ git remote add <remote name> <remote path or URL>` - adds a remote to your repo.
 
-*This will list all remotes for the current repo*
+`$ git pull <remote name> <branch name>` - Pull down changes from a remote and integrate them into your repo. Performs `git fetch` and then `git merge`.
 
-`$ git remote add <remote name> <remote path or URL>`
-
-*This will add a remote to your repo*
-
-`$ git pull <remote name> <branch name>`
-
-*This will pull down changes from a remote and mesh them into your repo (Under the hood it executes a `git fetch` and a `git merge`)*
-
-`$ git push <remote name> <branch name>`
-
-*This will send your changes to the remote to be merged*
+`$ git push <remote name> <branch name>` - Send your changes to the remote to be merged.
 
 ---
 
-# Creating/Managing a remote repository (gitHub)
-###This exercise will take you through the process of adding your local repo to gitHub
-1. Log into your gitHub account
-1. Create a repository on gitHub with the name *iGitItIgotIt*. **(Don't initialize a readme)**. Copy the repo URL to your clipboard
-1. On your **terminal**: Add the github repo as a remote for your local repo. Give the github repo the name `origin`.
+# Create and Manage a Remote Repository
+1. Log into your GitHub account
+1. Create a repository on GitHub with the name of your favorite food. (Don't initialize a readme). Copy the repo URL to your clipboard.
+1. On your command line: Add the github repo as a remote for your local repo. Give the github repo the name `origin`.
 1. Push your local commits up to github.
-1. Go back to the gitHub repo and verify that your commits were pushed.
-1. In Sublime, add few interesting facts about your movie to the `index.html` page.
-1. Check your repo's status, add, then commit the changes with the message "more movie facts".
-1. Push your changes up to github. Verify that the latest commit is there by looking at the commit history on gitHub.
-1. In your text editor, add an image of the main actor in your movie.
+1. Go back to the GitHub repo (in your browser) and confirm that your commits were pushed... Congrats! You've pushed to GitHub! Now your code is visible to the world.
+1. In your text editor, add few more interesting facts about your food to the `index.html` page.
+1. Check your repo's status, add, then commit the changes with the message "added more food facts".
+1. Push your changes up to Github. Confirm that the latest commit is there by looking at the commit history on GitHub.
+1. In your text editor, add another image of your animal.
 1. Check the status of your repo, add, then commit the changes locally.
-1. Push the changes up to gitHub.
-1. Make a change to the index file using gitHub's web interface and commit any changes.
-1. Finally pull down the latest change to your local repo. (You've now pushed and pulled changes to and from github!)
+1. Push the changes up to GitHub.
+1. Make a change to the index file using GitHub's web interface and commit the change.
+1. Pull down the latest change to your local repo. Congrats! You've now pushed and pulled changes to and from Github!
 
 ---
 
@@ -175,7 +164,7 @@
 ### First
 Everyone:
 
-1. Move out of your food directory and create a new directory called `<your first name>-ThunderCats`.  
+1. Move out of your movie directory and create a new directory called `<your first name>-ThunderCats`.  
 2. Move into the new directory and initialize a git repo.
 3. Create a new file `ThunderCats.txt`
 4. Add the file to be tracked and commit with the message 'created ThunderCats file'.
@@ -229,3 +218,4 @@ Git for Ages 4 and Up (Video) - https://www.youtube.com/watch?v=1ffBJ4sVUb4
 A Practical Git Introduction - http://mrchlblng.me/2014/09/practical-git-introduction/  
 Git Branching Game - http://pcottle.github.io/learnGitBranching/  
 Github Guides - https://guides.github.com/
+# pizza
