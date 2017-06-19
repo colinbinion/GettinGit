@@ -27,7 +27,7 @@
 *Illustrates the **full tree history** with a commit graph. This may be easier to read than a `$ git log`*
 
 ### Stage files to commit
-`$ git add <filename>`
+`$ git add **filename**`
 
 *Add a file and its changes to the staging area.*
 
@@ -40,10 +40,10 @@
 
 *commit staged changes (the `-m` flag will let you add your commit message inline).*
 
-### Branching
+### Branching off your master branch
 `$ git branch <branch name>`
 
-*create a new branch*
+*this creates a new branch*
 
 `$ git branch`
 
@@ -51,9 +51,9 @@
 
 `$ git checkout <branch name>`
 
-*switch to a different branch.*
+*this switches to a different branch*
 
-### Merging
+### Merging your branches
 
 `$ git merge <branch name>`
 
@@ -62,15 +62,15 @@
 ---
 
 # How to initialize a git repository
-1. Make a directory
+Step One *Make a directory*
 
 `$ mkdir <dir name>`
 
-2. Move into the repository
+Step Two *Move into the repository*
 
 `$ cd <dir name>`
 
-3. Initalize a git repository
+Step Three *Initalize a git repository*
 
 `$ git init`
 
