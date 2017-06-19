@@ -83,13 +83,13 @@
 ---
 
 # Some basic git workflow
-*1. Start by doing a little bit of work/coding*
+*1. **Start** by doing a little bit of work/coding*
 
-*2. Next take a second to review your changes you've made*
+*2. **Next** take a second to review your changes you've made*
 
 `$ git status`
 
-*3. Next add files to the staging area. (Use `$ git add -A` to add all files and changes.)*
+*3. **Next** add files to the staging area. (Use `$ git add -A` to add all files and changes.)*
 
 `$ git add <filename>`
 
