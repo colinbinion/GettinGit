@@ -38,7 +38,7 @@
 ### Commit changes in staged files
 `$ git commit -m "<your commit message>"`
 
-*commit staged changes (the `-m` flag will let you add your commit message inline).*
+*commit staged changes (the `-m` flag will add your commit message inline).*
 
 ### Branching off your master branch
 `$ git branch <your new branch name>`
@@ -83,15 +83,15 @@
 ---
 
 # Some basic git workflow
-1. Do a little work
+*1. Start by doing a little bit of work/coding*
 
-2. `$ git status`
+*2. Next take a second to review your changes you've made*
 
-to review your changes.
+`$ git status`
 
-3. `$ git add <filename>`
+*3. Next add files to the staging area. (Use `$ git add -A` to add all files and changes.)*
 
-to add files to the staging area. (Use `$ git add -A` to add all files and changes.)
+`$ git add <filename>`
 
 4. `$ git status`
 
