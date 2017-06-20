@@ -167,7 +167,7 @@
 
 ![lastCommit](../assets/lastCommit.png "New Repo Example")
 
-1. In **Sublime** add another movie poster image
+12. In **Sublime** add another movie poster image
 1. Check your repo status
 1. Add and commit the changes with the message "moviePoster2"
 1. Push/update to gitHub
@@ -213,20 +213,20 @@ Everyone:
 
 ![cloneFork](../assets/cloneForkedRepo.png "cloneFork")
 
-1. In your **terminal** create a new branch and checkout the new branch
+3. In your **terminal** create a new branch and checkout the new branch
 
 ![branch](../assets/newBranch.png "branch")
 
-3. Open your partner's <first name>Quotes.txt file and add a new quote to it
-4. In your **terminal** add/stage and commit the changes with the message '<first name> added quote'
-5. Push to gitHub. Your change should now be seen in **your** forked repo.
+4. Open your partner's <first name>Quotes.txt file and add a new quote to it
+1. In your **terminal** add/stage and commit the changes with the message '<first name> added quote'
+1. Push to gitHub. Your change should now be seen in **your** forked repo.
 
 ![merge](../assets/gitHubAfterPush.png "merge")
 
 ![PR](../assets/mergeBranch.png "PR")
 
-6. Click the green pull-request button. Review the changes. Click "Create Pull Request".
-7. Title your pull request and comment. Click "Create Pull Request" to submit a pull-request to you partner.
+8. Click the green pull-request button. Review the changes. Click "Create Pull Request".
+1. Title your pull request and comment. Click "Create Pull Request" to submit a pull-request to you partner.
 
 You've submitted your first pull-request
 
@@ -253,4 +253,4 @@ Pro Git (free e-book) - http://git-scm.com/book/
 Try git - https://try.github.io/  
 A Practical Git Introduction - http://mrchlblng.me/2014/09/practical-git-introduction/  
 Git Branching Game - http://pcottle.github.io/learnGitBranching/  
-The no nonsense GitHub Project - https://github.com/Multishifties/No-Nonsense-Github-Project/ 
+The no nonsense GitHub Project - https://github.com/Multishifties/No-Nonsense-Github-Project/
