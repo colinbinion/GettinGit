@@ -191,7 +191,7 @@ Everyone:
 ![1stSteps](../assets/terminal1stSteps.png "1stSteps")
 
 6. In **terminal** add the file tracking and commit with the message 'first quote by [your first name]'
-7. In your **browser** go to gitHub and create a repo called `<<your first name>Quotes`
+7. In your **browser** go to gitHub and create a repo called `<your first name>Quotes`
 
 ![quotesGithub](../assets/firstNameQuotesRepo.png "quotesGithub")
 
@@ -200,48 +200,56 @@ Everyone:
 ![addRemotes](../assets/addRemotes.png "quotesGithub")
 
 9. Push your local commits up to gitHub.
-10. Confirm that your commits are now on gitHub.
+10. Verify that your commits are on gitHub.
 
-Make sure your teammates have caught up before moving on.
+**Wait for you team to finish this section before moving forward**
 
 ### Next Steps
-1. Partner #1, go to partner #2's <first name>-ThunderCats gitHub repo and **fork** it. Partner #2, do this to partner #3's repo. Partner #3, do it to Partner #1's repo.
-2. Clone the new forked repo (the url should have your username in it) to your computer.
-3. Open your partner's ThunderCats.txt file and write add on a new line 3 colors.
-4. Add, then commit the change to your local repo.
-5. Push the change up to gitHub. Your change should now be reflected in your forked repo.
+1. Partner1, go to partner2's <your first name>Quotes gitHub repo and **fork** it. Partner2, do this to partner3's repo. Partner3, do it to Partner1's repo.
+
+![forkedFrom](../assets/ForkedFrom.png "forked")
+
+2. Clone the new forked repo (the url should have your username in it) to your computer
+
+![cloneFork](../assets/cloneForkedRepo.png "cloneFork")
+
+1. In your **terminal** create a new branch and checkout the new branch
+
+![branch](../assets/newBranch.png "branch")
+
+3. Open your partner's <first name>Quotes.txt file and add a new quote to it
+4. In your **terminal** add/stage and commit the changes with the message '<first name> added quote'
+5. Push to gitHub. Your change should now be seen in **your** forked repo.
+
+![merge](../assets/gitHubAfterPush.png "merge")
+
+![PR](../assets/mergeBranch.png "PR")
+
 6. Click the green pull-request button. Review the changes. Click "Create Pull Request".
-7. Give your pull request a title and (optional) comment. Click "Create Pull Request" to submit a pull-request to you partner.
+7. Title your pull request and comment. Click "Create Pull Request" to submit a pull-request to you partner.
 
-Congrats! You've submitted your first pull-request!
+You've submitted your first pull-request
 
-Make sure your teammates have caught up before moving on.
+**Wait for you team to finish this section before moving forward**
 
 ### After That
-1. Go to your <first name>-ThunderCats gitHub repo. You should see a pending pull-request from your partner. Review the pull-request and accept it if it looks good to you.
+1. Go to ***your*** <first name>Quotes gitHub repo. You should see a pending pull-request from your partner. Review the pull-request.  Accept it if things look good
 
-Congrats! You've accepted your first pull-request!
+You've accepted your first pull-request
 
-Make sure your teammates have caught up before moving on.
+**Wait for you team to finish this section before moving forward**
 
 ### Finally
-1. Repeat the steps in Part 2 and Part 3, but this time on your other partner's repo. Instead of writing the 2nd line of the ThunderCats.txt, you should be writing the 3rd and final line of 3 favorite animals.
-2. When finished, all three partners should a complete ThunderCats.txt, authored with two collaborators.
-
----
-
-# Advanced Git
-**Aliases** - Make git commands easier and faster to type with command line shortcuts. For more: http://git-scm.com/book/en/v2/Git-Basics-Git-Aliases  
-
-**Rebasing** - Another way to merge that keeps your git history cleaner and more streamlined. For more: http://git-scm.com/book/en/v2/Git-Branching-Rebasing
+1. Repeat steps in Part 2 and Part 3, for your other partner's repo. Add the final quote to <first name>Quotes.txt
+2. Now all three partners should have a complete <first name>Quotes.txt authored with two collaborators
 
 ---
 
 # Additional Resources
+Github Guides - https://guides.github.com/
+Github Training Videos - https://www.youtube.com/user/GitHubGuides
+Git for Ages 4 and Up (Video) - https://www.youtube.com/watch?v=1ffBJ4sVUb4  
 Pro Git (free e-book) - http://git-scm.com/book  
 Try git - https://try.github.io  
-Github Training Videos - https://www.youtube.com/user/GitHubGuides  
-Git for Ages 4 and Up (Video) - https://www.youtube.com/watch?v=1ffBJ4sVUb4  
 A Practical Git Introduction - http://mrchlblng.me/2014/09/practical-git-introduction/  
 Git Branching Game - http://pcottle.github.io/learnGitBranching/  
-Github Guides - https://guides.github.com/
