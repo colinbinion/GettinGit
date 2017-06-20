@@ -176,20 +176,29 @@
 
 # Collaborating with gitHub
 ### Setup
-1. Partner with 2 of your classmates to make a team of 3.
-2. Decide who will be partner #1, #2, and #3.
+1. Partner up with two of your classmates to make a team of three
+2. Discuss and decide who will be partner1, partner2, partner3
 
 ### First
 Everyone:
 
-1. Move out of your movie directory and create a new directory called `<your first name>-ThunderCats`.  
+1. `cd ..` out of your movie directory and create a new directory called `<your first name>Quotes`.  
 2. Move into the new directory and initialize a git repo.
-3. Create a new file `ThunderCats.txt`
-4. Add the file to be tracked and commit with the message 'created ThunderCats file'.
-5. Open the .txt file in your text editor and write the first 3 words that pop in your head.
-6. Add, then commit your changes with the message "first 3 words by [your first name]"
-7. On gitHub, create a repo called `<your first name>-ThunderCats`.
-8. Add the new gitHub repo as a remote called `origin`.
+3. Create a new file `<your first name>Quotes.txt`
+4. Add the file to be tracked and commit with the message 'spawned quotes repo'
+5. In **Sublime** write your first quote in the `<your first name>Quotes.txt` file
+
+![1stSteps](../assets/terminal1stSteps.png "1stSteps")
+
+6. In **terminal** add the file tracking and commit with the message 'first quote by [your first name]'
+7. In your **browser** go to gitHub and create a repo called `<<your first name>Quotes`
+
+![quotesGithub](../assets/firstNameQuotesRepo.png "quotesGithub")
+
+8. Add the new gitHub repo as a remote called `origin`
+
+![addRemotes](../assets/addRemotes.png "quotesGithub")
+
 9. Push your local commits up to gitHub.
 10. Confirm that your commits are now on gitHub.
 
