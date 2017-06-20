@@ -157,18 +157,22 @@
 
 3. Copy the repo URL
 4. In the **terminal** add the gitHub repo remote for your local repo.  Name the gitHub repo `origin`
-1. In terminal push local commits up to gitHub.
-1. Go back to the gitHub repo (in your browser) and confirm that your commits were pushed... Congrats! You've pushed to gitHub! Now your code is visible to the world.
-1. In your text editor, add few more interesting facts about your food to the `index.html` page.
-1. Check your repo's status, add, then commit the changes with the message "added more food facts".
-1. Push your changes up to gitHub. Confirm that the latest commit is there by looking at the commit history on gitHub.
-1. In your text editor, add another image of your animal.
+5. In **terminal** push local commits up to gitHub
+6. Go back your **browser gitHub repo** to confirm that your commits were pushed to the gitHub repo
+7. In **Sublime** add a little trivia about your favorite actor/actress in the movie to your `index.html`
+8. Add and commit the changes with the message "Favorite Actor/Actress"
+9. Verify your repo status
+1. Push/update to gitHub
+1. Verify that the latest commit is there by looking at the commit history on gitHub.
+
+![lastCommit](../assets/lastCommit.png "New Repo Example")
+
+1. In **Sublime** add another movie poster image
 1. Check the status of your repo, add, then commit the changes locally.
 1. Push the changes up to gitHub.
 1. Make a change to the index file using gitHub's web interface and commit the change.
 1. Pull down the latest change to your local repo. Congrats! You've now pushed and pulled changes to and from gitHub!
 
----
 
 # Collaborating with gitHub
 ### Setup
