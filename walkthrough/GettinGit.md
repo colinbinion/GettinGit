@@ -151,12 +151,13 @@
 
 # Creating/Managing the Remote Repository (gitHub)
 1. In your browser log into your gitHub account
-1. Create a repo on gitHub with the name of **gitItGotIt**. (Don't initialize a readme). Copy the repo URL to your clipboard.
+2. Create a repo on gitHub with the name of **gitItGotIt**, don't initialize README.
 
-![NewRepo](../assets/newRepo.png "Optional title attribute")
+![NewRepo](../assets/newRepo.png "New Repo Example")
 
-1. On your command line: Add the gitHub repo as a remote for your local repo. Give the gitHub repo the name `origin`.
-1. Push your local commits up to gitHub.
+3. Copy the repo URL
+4. In the **terminal** add the gitHub repo remote for your local repo.  Name the gitHub repo `origin`
+1. In terminal push local commits up to gitHub.
 1. Go back to the gitHub repo (in your browser) and confirm that your commits were pushed... Congrats! You've pushed to gitHub! Now your code is visible to the world.
 1. In your text editor, add few more interesting facts about your food to the `index.html` page.
 1. Check your repo's status, add, then commit the changes with the message "added more food facts".
