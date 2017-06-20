@@ -247,7 +247,7 @@ You've accepted your first pull-request
 
 # Resources
 Github Guides - https://guides.github.com/  
-Github Training Videos - https://www.youtube.com/user/GitHubGuides/
+Github Training Videos - https://www.youtube.com/user/GitHubGuides/ 
 Git for Ages 4 and Up (Video) - https://www.youtube.com/watch?v=1ffBJ4sVUb4/  
 Pro Git (free e-book) - http://git-scm.com/book/  
 Try git - https://try.github.io/  
