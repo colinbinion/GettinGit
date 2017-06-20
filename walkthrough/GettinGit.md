@@ -152,7 +152,9 @@
 # Creating/Managing the Remote Repository (gitHub)
 1. In your browser log into your gitHub account
 1. Create a repo on gitHub with the name of **gitItGotIt**. (Don't initialize a readme). Copy the repo URL to your clipboard.
+
 ![Example](assets/newRepo.png)
+
 1. On your command line: Add the gitHub repo as a remote for your local repo. Give the gitHub repo the name `origin`.
 1. Push your local commits up to gitHub.
 1. Go back to the gitHub repo (in your browser) and confirm that your commits were pushed... Congrats! You've pushed to gitHub! Now your code is visible to the world.
