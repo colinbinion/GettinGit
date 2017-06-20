@@ -125,21 +125,31 @@
 
 ---
 
-# Working with a remote repository (Github)
+# Working with a remote repository (gitHub)
 
-`$ git clone <repo path or URL>` - clone a repository into a new directory.
+`$ git clone <repo path or URL>`
 
-`$ git remote` - List all remotes for the current repo.
+*This clones a repository into a new directory on your local machine*
 
-`$ git remote add <remote name> <remote path or URL>` - adds a remote to your repo.
+`$ git remote`
 
-`$ git pull <remote name> <branch name>` - Pull down changes from a remote and integrate them into your repo. Performs `git fetch` and then `git merge`.
+*This lists the remotes for the current repo*
 
-`$ git push <remote name> <branch name>` - Send your changes to the remote to be merged.
+`$ git remote add <remote name> <remote path or URL>`
+
+*This adds a remote to your repo.  A <remote name> example is origin*
+
+`$ git pull <remote name> <branch name>`
+
+*This pulls down any change from a remote and meshes them into your repo. Under the hood it fulfills `git fetch` and then `git merge` commands*
+
+`$ git push <remote name> <branch name>`
+
+*This sends your local project changes to the remote to be merged*
 
 ---
 
-# Create and Manage a Remote Repository
+# Creating/Managing the Remote Repository (gitHub)
 1. Log into your GitHub account
 1. Create a repository on GitHub with the name of your favorite food. (Don't initialize a readme). Copy the repo URL to your clipboard.
 1. On your command line: Add the github repo as a remote for your local repo. Give the github repo the name `origin`.
