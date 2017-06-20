@@ -168,11 +168,11 @@
 ![lastCommit](../assets/lastCommit.png "New Repo Example")
 
 1. In **Sublime** add another movie poster image
-1. Check the status of your repo, add, then commit the changes locally.
-1. Push the changes up to gitHub.
-1. Make a change to the index file using gitHub's web interface and commit the change.
-1. Pull down the latest change to your local repo. Congrats! You've now pushed and pulled changes to and from gitHub!
+1. Check your repo status
+1. Add and commit the changes with the message "moviePoster2"
+1. Push/update to gitHub
 
+**Note:** Make sure to use the `$ git pull` command when working with a group.  This will keep your local repo up to date and prevent merge conflicts.
 
 # Collaborating with gitHub
 ### Setup
