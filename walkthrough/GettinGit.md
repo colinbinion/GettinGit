@@ -150,23 +150,24 @@
 ---
 
 # Creating/Managing the Remote Repository (gitHub)
-1. Log into your GitHub account
-1. Create a repository on GitHub with the name of your favorite food. (Don't initialize a readme). Copy the repo URL to your clipboard.
-1. On your command line: Add the github repo as a remote for your local repo. Give the github repo the name `origin`.
-1. Push your local commits up to github.
-1. Go back to the GitHub repo (in your browser) and confirm that your commits were pushed... Congrats! You've pushed to GitHub! Now your code is visible to the world.
+1. In your browser log into your gitHub account
+1. Create a repo on gitHub with the name of **gitItGotIt**. (Don't initialize a readme). Copy the repo URL to your clipboard.
+![Example](assets/newRepo.png)
+1. On your command line: Add the gitHub repo as a remote for your local repo. Give the gitHub repo the name `origin`.
+1. Push your local commits up to gitHub.
+1. Go back to the gitHub repo (in your browser) and confirm that your commits were pushed... Congrats! You've pushed to gitHub! Now your code is visible to the world.
 1. In your text editor, add few more interesting facts about your food to the `index.html` page.
 1. Check your repo's status, add, then commit the changes with the message "added more food facts".
-1. Push your changes up to Github. Confirm that the latest commit is there by looking at the commit history on GitHub.
+1. Push your changes up to gitHub. Confirm that the latest commit is there by looking at the commit history on gitHub.
 1. In your text editor, add another image of your animal.
 1. Check the status of your repo, add, then commit the changes locally.
-1. Push the changes up to GitHub.
-1. Make a change to the index file using GitHub's web interface and commit the change.
-1. Pull down the latest change to your local repo. Congrats! You've now pushed and pulled changes to and from Github!
+1. Push the changes up to gitHub.
+1. Make a change to the index file using gitHub's web interface and commit the change.
+1. Pull down the latest change to your local repo. Congrats! You've now pushed and pulled changes to and from gitHub!
 
 ---
 
-# Collaborating with Github
+# Collaborating with gitHub
 ### Setup
 1. Partner with 2 of your classmates to make a team of 3.
 2. Decide who will be partner #1, #2, and #3.
@@ -180,19 +181,19 @@ Everyone:
 4. Add the file to be tracked and commit with the message 'created ThunderCats file'.
 5. Open the .txt file in your text editor and write the first 3 words that pop in your head.
 6. Add, then commit your changes with the message "first 3 words by [your first name]"
-7. On GitHub, create a repo called `<your first name>-ThunderCats`.
-8. Add the new GitHub repo as a remote called `origin`.
-9. Push your local commits up to GitHub.
-10. Confirm that your commits are now on GitHub.
+7. On gitHub, create a repo called `<your first name>-ThunderCats`.
+8. Add the new gitHub repo as a remote called `origin`.
+9. Push your local commits up to gitHub.
+10. Confirm that your commits are now on gitHub.
 
 Make sure your teammates have caught up before moving on.
 
 ### Next Steps
-1. Partner #1, go to partner #2's <first name>-ThunderCats GitHub repo and **fork** it. Partner #2, do this to partner #3's repo. Partner #3, do it to Partner #1's repo.
+1. Partner #1, go to partner #2's <first name>-ThunderCats gitHub repo and **fork** it. Partner #2, do this to partner #3's repo. Partner #3, do it to Partner #1's repo.
 2. Clone the new forked repo (the url should have your username in it) to your computer.
 3. Open your partner's ThunderCats.txt file and write add on a new line 3 colors.
 4. Add, then commit the change to your local repo.
-5. Push the change up to GitHub. Your change should now be reflected in your forked repo.
+5. Push the change up to gitHub. Your change should now be reflected in your forked repo.
 6. Click the green pull-request button. Review the changes. Click "Create Pull Request".
 7. Give your pull request a title and (optional) comment. Click "Create Pull Request" to submit a pull-request to you partner.
 
@@ -201,7 +202,7 @@ Congrats! You've submitted your first pull-request!
 Make sure your teammates have caught up before moving on.
 
 ### After That
-1. Go to your <first name>-ThunderCats GitHub repo. You should see a pending pull-request from your partner. Review the pull-request and accept it if it looks good to you.
+1. Go to your <first name>-ThunderCats gitHub repo. You should see a pending pull-request from your partner. Review the pull-request and accept it if it looks good to you.
 
 Congrats! You've accepted your first pull-request!
 
@@ -228,4 +229,3 @@ Git for Ages 4 and Up (Video) - https://www.youtube.com/watch?v=1ffBJ4sVUb4
 A Practical Git Introduction - http://mrchlblng.me/2014/09/practical-git-introduction/  
 Git Branching Game - http://pcottle.github.io/learnGitBranching/  
 Github Guides - https://guides.github.com/
-# pizza
