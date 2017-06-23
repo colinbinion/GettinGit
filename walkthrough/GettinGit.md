@@ -205,7 +205,7 @@ Everyone:
 **Wait for you team to finish this section before moving forward**
 
 ### Next Steps
-1. Partner1, go to partner2's <your first name>Quotes gitHub repo and **fork** it. Partner2, do this to partner3's repo. Partner3, do it to Partner1's repo.
+1. Partner1, go to partner2's <your first name>Quotes gitHub repo, **fork and clone** it. Partner2, do this to partner3's repo. Partner3, do it to Partner1's repo.
 
 ![forkedFrom](../assets/ForkedFrom.png "forked")
 
