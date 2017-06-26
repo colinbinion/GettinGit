@@ -3,6 +3,9 @@
 ---
 
 # Some Essential Git Concepts
+
+**Note:** Make sure you exclude the angle brackets from your commands. These brackets are there to signal you when a unique input is required. 
+
 ### To create a new git repository
 `$ git init`
 
