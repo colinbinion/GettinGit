@@ -1,8 +1,10 @@
-# Git/Github Crib Sheet
+# Git/GitHub Crib Sheet
 
 ## Git Repos
 
 Git is version control that allows us to make and track revisions within a directory over time.
+
+**Note:** Make sure you exclude the angle brackets from your commands. These brackets are there to signal you when a unique input is required. 
 
 1) Initiate a directory to be a git *repository*
 
